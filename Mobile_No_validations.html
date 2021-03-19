@@ -1,0 +1,46 @@
+<html>
+	<head>
+
+		<title>Validation- Mobile no.</title>
+	
+		<script type="text/javascript">
+		function myfun(){
+		
+			var mobileno=document.getElementById("mobile").value;
+			if(mobileno==""){
+				document.getElementById("messages").innerHTML="Please fill mobile number";
+				return false;}
+			if(isNaN(mobileno)){
+				document.getElementById("messages").innerHTML=" Enter only numeric values";
+				return false;
+			}
+			if(mobileno.length<10){
+				document.getElementById("messages").innerHTML=" Mobile number must be 10 digit";
+				return false;
+			}
+			if(mobileno.length>10){
+				document.getElementById("messages").innerHTML="Mobile number must be 10 digit";
+				return false;
+			}
+			if((mobileno.charAt(0)!=9)&&(a.charAt(0)!=8)&&(a.charAt(0)!=7)) {
+				document.getElementById("messages").innerHTML="Mobile number must start with 9, 8 and 7";
+				return false;
+			}
+			return true;
+		}
+		</script>
+	</head>
+
+	<body style="border:2px black solid; padding: 5rem">
+		<center>
+			<u><h1> Mobile number validation in Java Script </h1></u>
+			<form onsubmit="return myfun()">
+				Mobile Number:	<input type="text" id="mobile" value="" >
+				<div id="messages" style="color:red;"> </div> <br></br>
+				<input type="submit" value="Validate">
+			</form>
+		</center>
+	</body>
+</html>
+
+
