@@ -73,7 +73,8 @@
         background: rgb(79, 212, 139);
     }
     .header{
-        background: radial-gradient(rgb(174, 236, 220), rgb(145, 145, 229));
+        background: linear-gradient(45deg, #b2eeeb 10%, #82bdec 90%);
+        /* background: radial-gradient(rgb(174, 236, 220), rgb(145, 145, 229)); */
     }
     .header .row{
         margin-top: 35px;
