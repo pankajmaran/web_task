@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Rule.xsl" ?>
+<user>
+<s>
+<name> Divyank Singh Sikarwar </name>
+<membership> prime</membership>
+<age>18</age>
+<city> Agra </city>
+</s>
+<s>
+<name> Aniket Chauhan </name>
+<membership> prime</membership>
+<age> 20</age>
+<city> Shahjahanpur </city>
+</s>
+<s>
+<name> Simran Agarwal</name>
+<membership>prime</membership>
+<age> 23</age>
+<city> Buland Shar</city>
+</s>
+<s>
+<name> Abhay Chauhan</name>
+<membership> non prime</membership>
+<age> 17</age>
+<city> Shahjahanpur</city>
+</s>
+<s>
+<name> Himanshu Bhatia</name>
+<membership>non prime</membership>
+<age> 25</age>
+<city> Indore</city>
+</s>
+
+
+<s>
+    <name> Divyank Singh Sikarwar </name>
+    <membership> prime</membership>
+    <age>18</age>
+    <city> Agra </city>
+    </s>
+    <s>
+    <name> Aniket Chauhan </name>
+    <membership> prime</membership>
+    <age> 20</age>
+    <city> Shahjahanpur </city>
+    </s>
+    <s>
+    <name> Simran Agarwal</name>
+    <membership>prime</membership>
+    <age> 23</age>
+    <city> Buland Shar</city>
+    </s>
+    <s>
+    <name> Abhay Chauhan</name>
+    <membership> non prime</membership>
+    <age> 17</age>
+    <city> Shahjahanpur</city>
+    </s>
+    <s>
+    <name> Himanshu Bhatia</name>
+    <membership>non prime</membership>
+    <age> 25</age>
+    <city> Indore</city>
+    </s>
+
+
+    <s>
+        <name> Divyank Singh Sikarwar </name>
+        <membership> prime</membership>
+        <age>18</age>
+        <city> Agra </city>
+        </s>
+        <s>
+        <name> Aniket Chauhan </name>
+        <membership> prime</membership>
+        <age> 20</age>
+        <city> Shahjahanpur </city>
+        </s>
+        <s>
+        <name> Simran Agarwal</name>
+        <membership>prime</membership>
+        <age> 23</age>
+        <city> Buland Shar</city>
+        </s>
+        <s>
+        <name> Abhay Chauhan</name>
+        <membership> non prime</membership>
+        <age> 17</age>
+        <city> Shahjahanpur</city>
+        </s>
+        <s>
+        <name> Himanshu Bhatia</name>
+        <membership>non prime</membership>
+        <age> 25</age>
+        <city> Indore</city>
+        </s>
+</user>

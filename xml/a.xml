@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+  <stock>
+    <name>Jindal Steel</name>
+    <price>350</price>
+  </stock>
+  <stock>
+  <name>SBI</name>
+  <price>400</price>
+</stock>
+  <stock>
+    <name>Jindal Steel</name>
+    <price>350</price>
+  </stock>
+  <stock>
+  <name>SBI</name>
+  <price>400</price>
+</stock>
+
+</CATALOG>

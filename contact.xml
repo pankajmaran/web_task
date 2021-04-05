@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contacts>
+  <contact>
+  <post>Owner</post>
+    <name>ABC</name>
+    <phone>1234567890</phone>
+    <address>Delhi</address>
+  </contact>
+  <contact>
+  <post>Manager</post>
+    <name>XYZ</name>
+    <phone>987654321</phone>
+    <address>Mumbai</address>
+  </contact>
+  <contact>
+  <post>Vice President</post>
+    <name>YZ</name>
+    <phone>987654321</phone>
+    <address>Delhi</address>
+  </contact>
+</contacts>

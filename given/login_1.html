@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/login_1.css">
+	<title>Login/Signup</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="signup.php" method="post">
+			<h1>Create Account</h1>
+			<span>Enter Username for registration</span>
+			<input type="text" placeholder="Name" name="name" />
+			<input type="password" placeholder="Password" name="pwd" />
+			<button>Sign Up</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="processlogin.php" method="post">
+			<h1>Sign in</h1>
+			<span>or use your account</span>
+			<input type="text" placeholder="Username" name="name" />
+			<input type="password" placeholder="Password" name="pwd"/>
+			<br>
+			<button>Sign In</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Ki & Ka Saloon</h1>
+				<p>Enter your personal details to create account.</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+    const signUpButton = document.getElementById('signUp');
+const signInButton = document.getElementById('signIn');
+const container = document.getElementById('container');
+
+signUpButton.addEventListener('click', () => {
+	container.classList.add("right-panel-active");
+});
+
+signInButton.addEventListener('click', () => {
+	container.classList.remove("right-panel-active");
+});
+    </script>
+	<script>
+	</script>
+
+</body>
+
+</html>
