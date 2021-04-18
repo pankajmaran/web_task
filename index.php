@@ -49,13 +49,23 @@
       <nav>
         <ul>
           <li><a class="active" href="#home">Home</a></li>
-          <li><a href="#category">category</a></li>
+          
           <li><a href="contact.xml">Contact</a></li>
           <li><a href="xml/user.xml">xml</a></li>
+          <li><a href="http://localhost:3000/api/courses">node_js_service</a></li>
           <!-- <li><a href="registration_form.html">register_from</a></li> -->
-          <li><a href="register.php">register_new</a></li>
-          <li><a href="login.php">login</a></li>
-          <?php
+         
+          <?php if(isset($_SESSION["user"])) : ?>
+            <li><a href="cart/index.php">cart</a></li>
+            <li><a href="logout.php">Logout</a></li>
+            <?php else :?>
+              <li><a href="register.php">register_new</a></li>
+            <li><a href="login.php">login</a></li>
+        <?php endif; ?>
+          <!-- <li><a href="login.php">login</a></li>
+
+          <li><a href="json_form.php">json</a></li>
+          ?php 
           // session_start();
           if(isset($_SESSION['user']))
           {
@@ -65,7 +75,7 @@
             echo "</a>";
             echo "</li>";
           }
-          ?>
+           -->
         </ul>
       </nav>
       <img src="images/cart.png" alt="cart" width="30px" height="30px" />

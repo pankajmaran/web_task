@@ -10,7 +10,8 @@
     }
     .navbar{
         display : flex;
-        align-items: center;
+        align-items: center; 
+         flex-wrap: wrap;
         padding: 20px
     }
     nav{
@@ -20,10 +21,13 @@
     nav ul{
         display: inline-block;
         list-style-type: none;
+        
     }
     nav ul li{
         display: inline-block;
         margin-right: 20px;
+        font-size:medium;
+        font-weight:500;
     }
     a{
         text-decoration: none;
@@ -174,4 +178,8 @@
       
       .Menu li a:hover {
         background-color: rgb(20, 23, 179);
+      }
+      .logo img{
+        display: flex;  
+        flex-wrap: wrap;
       }

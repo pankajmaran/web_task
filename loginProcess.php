@@ -1,5 +1,9 @@
 <?php
 session_start();
+if(isset($_POST['save'])){
+    $options['expires']=time()+3600;
+    setcookie('name', $_POST['user'], $options);
+}
 // if(isset($_POST['save']))
 {
     extract($_POST);
